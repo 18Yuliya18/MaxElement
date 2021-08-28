@@ -26,11 +26,9 @@ public class Sorting  {
                     arrayElements[i + 1] = temp;
                 }
             }
-
             System.out.print(arrayElements[i].getName() + " ");
        }
         System.out.println();
         return "Max value: " + arrayElements[arrayElements.length-1].getName();
     }
-
 }
